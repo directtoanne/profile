@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=IM+Fell+DW+Pica+SC&family=Stylish&display=swap');
+
+body {
+  align-items: center;
+  background-color: #191F25;
+  font-family: 'Stylish', sans-serif;
+  color: antiquewhite;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  height: 400px;
+  padding-top: 24px;
+}
+
+#profile {
+  width: 30%;
+  border: black solid;
+  border-radius: 48%;
+  display: inline-block;
+  margin-top: 50px;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 32px;
+}
+
+#first-header {
+  margin-left: 100px;
+  padding-bottom: 150px;
+  padding-right: 200px;
+  padding-top: 150px;
+  position: relative;
+  float: right;
+  font-size: 40px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 24px;
+  margin: 0;
+}
+
+.review {
+  width: 56%;
+  border: #191F25 solid;
+}
+
+p {
+  font-size: 16px;
+}
+
+#text-based {
+  padding-top: 80px;
+  height: 300px;
+}
+
+#games {
+  padding-top: 32px;
+}
+
+.game {
+  border-radius: 8px;
+  background-color: #dbe6fd;
+  padding: 16px;
+  margin: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+a:hover {
+  background-color: rgb(96, 190, 156);
+  border-color: rgb(96, 190, 156);
+}
+
+ul {
+  padding: 0;
+}
+
+i {
+  font-size: 48px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+i:hover {
+  color: aquamarine;
+  background-color: #191F25;
+}
